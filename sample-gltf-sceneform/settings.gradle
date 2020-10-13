@@ -1,0 +1,7 @@
+include ':app'
+
+include ':sceneform'
+project(':sceneform').projectDir=new File('../sceneform/sceneformsrc/sceneform')
+
+include ':sceneformux'
+project(':sceneformux').projectDir=new File('../sceneform/sceneformux/ux')
